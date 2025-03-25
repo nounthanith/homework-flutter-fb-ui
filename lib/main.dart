@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_app_homework/views/facebook_view/facebook_ui.dart';
 import 'package:flutter_app_homework/views/feed_view.dart';
 import 'package:flutter_app_homework/views/home_view.dart';
 
@@ -13,7 +14,7 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      home: FeedView(),
+      home: FacebookUi(),
     );
   }
 }
